@@ -158,3 +158,11 @@ file src/index.css
 ```
 
 not necessary css for tailwind
+
+# Install classnames
+
+classnames is an npm package, it helps us change className dynamically and supports many cases.
+
+```bash
+npm i classnames
+```
