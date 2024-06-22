@@ -127,3 +127,34 @@ Install Nomarlize
 ```bash
 npm install --save normalize.css
 ```
+
+# Install Tailwind css
+
+```bash
+npm install -D tailwindcss
+
+npx tailwindcss init
+```
+
+tailwind.config.js file
+
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+    content: ['./src/**/*.{js,jsx,ts,tsx}'],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+};
+```
+
+file src/index.css
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+not necessary css for tailwind
